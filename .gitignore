@@ -1,0 +1,32 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+/public/css
+/public/fonts
+/public/img
+/public/index*
+/public/*config.json
+/public/js/*bundle*
+/public/js/*vendor*
+/public/tos/TOS*html
+
+# misc
+.DS_Store
+.env
+npm-debug.log*
+
+.idea/
+.editorconfig
+.jshintignore
+.jshintrc
+
+# symlinks from madmen
+graphql/symlink_madmen
+
